@@ -110,5 +110,5 @@ function checkAnswer(selectedOption) {
   }
 
   nextBtn.classList.add("open");
-  selectedOption.classList.add("click");
+  selectedOption.classList.add("clicked");
 }
