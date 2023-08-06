@@ -2,7 +2,7 @@
 
 <p>🏹 Ömer Toyga</p>
 <p>🏹 HTML & CSS & JavaScript</p>
-<p>🏹 06.06.2023</p>
+<p>🏹 06.08.2023</p>
 <p>🏹 <a href="https://quiz-app-flax-tau.vercel.app/" target="_blank">Live URL</a> </p>
 
 
