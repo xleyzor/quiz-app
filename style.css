@@ -31,16 +31,44 @@ main {
   border-radius: 10px;
   max-width: 700px;
   width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .content {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  display: none;
+}
+
+.start-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
+  gap: 20px;
+}
+.start-content h1 {
+  font-size: 3rem;
+}
+.startbtn {
+  padding: 0.8rem 2rem;
+  background-color: var(--bg-color);
+  border-radius: 100vw;
+  color: #000;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.startbtn:hover {
+  transform: scale(1.1);
 }
 
 .header {
   max-width: 100%;
+  position: relative;
 }
 
 .header .number-div {
@@ -52,6 +80,35 @@ main {
 .header .title {
   margin-top: 1.5rem;
   overflow: hidden;
+}
+
+.header h2 {
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.time {
+  position: absolute;
+  right: 0;
+  top: -0.1rem;
+  padding: 0.2rem 0.5rem;
+  background-color: var(--red);
+  border-radius: 100vw;
+  color: #fff;
+}
+.header h3 {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 32px;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+}
+
+.header h1:not(h1.title) {
+  overflow: hidden;
+  color: #d62828;
+  text-align: center;
 }
 
 .options {
@@ -96,4 +153,17 @@ main {
 .next.open {
   filter: brightness(100%);
   cursor: pointer;
+}
+
+.display {
+  display: flex;
+}
+.nondisplay {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  .header h1 {
+    font-size: 28px;
+  }
 }
