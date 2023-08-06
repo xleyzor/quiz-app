@@ -69,7 +69,7 @@ main {
   background-color: #d3d3d3;
 }
 
-.answer.click {
+.answer.clicked {
   background-color: #a1a1a1;
 }
 
