@@ -86,7 +86,7 @@ const Questions = [
 
 let currentQuestionIndex = 0;
 let score = 0;
-let timeLeft = 30;
+let timeLeft = 90;
 let timerInterval;
 
 startQuiz();
